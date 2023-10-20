@@ -11,24 +11,24 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="">
+  <link rel="shortcut icon" href="{{asset('feane/images/favicon.png')}}" type="">
 
   <title> Bistecão Lanches </title>
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="/feane/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="{{asset('feane/css/bootstrap.css')}}" />
 
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
   <!-- font awesome style -->
-  <link href="feane/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="{{asset('feane/css/font-awesome.min.css" rel="stylesheet')}}" />
 
   <!-- Custom styles for this template -->
-  <link href="feane/css/style.css" rel="stylesheet" />
+  <link href="{{asset('feane/css/style.css')}}" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="feane/css/responsive.css" rel="stylesheet" />
+  <link href="{{asset('feane/css/responsive.css')}}" rel="stylesheet" />
 
 </head>
 
@@ -36,7 +36,7 @@
 
   <div class="hero_area">
     <div class="bg-box">
-      <img src="images/hero-bg.jpg" alt="aa">
+      <img src="{{asset('feane/images/hero-bg.jpg')}}" alt="aa">
     </div>
 
   </div>
@@ -65,7 +65,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f1.png" alt="">
+                  <img src="{{asset('feane/images/f1.png')}}" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -141,7 +141,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f2.png" alt="">
+                  <img src="{{asset('feane/images/f2.png')}}" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -217,7 +217,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f3.png" alt="">
+                  <img src="{{asset('feane/images/f3.png')}}" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -293,7 +293,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f4.png" alt="">
+                  <img src="{{asset('feane/images/f4.png')}}" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -369,7 +369,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f5.png" alt="">
+                  <img src="{{asset('feane/images/f5.png')}}" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -445,7 +445,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f6.png" alt="">
+                  <img src="{{asset('feane/images/f6.png')}}" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -521,7 +521,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f7.png" alt="">
+                  <img src="{{asset('feane/images/f7.png')}}" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -597,7 +597,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f8.png" alt="">
+                  <img src="{{asset('feane/images/f8.png')}}" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -673,7 +673,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                  <img src="{{asset('feane/images/f9.png')}}" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -838,12 +838,12 @@
   <!-- footer section -->
 
   <!-- jQery -->
-  <script src="feane/js/jquery-3.4.1.min.js"></script>
+  <script src="{{asset('feane/js/jquery-3.4.1.min.js')}}"></script>
   <!-- popper js -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
   <!-- bootstrap js -->
-  <script src="feane/js/bootstrap.js"></script>
+  <script src="{{asset('feane/js/bootstrap.js')}}"></script>
   <!-- owl slider -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
@@ -852,7 +852,7 @@
   <!-- nice select -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
   <!-- custom js -->
-  <script src="feane/js/custom.js"></script>
+  <script src="{{asset('feane/js/custom.js')}}"></script>
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
