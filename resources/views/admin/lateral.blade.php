@@ -65,9 +65,15 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="{{route('modelo')}}" class="nav-link">
                     <i class="nav-icon fas fa-file"></i>
                   <p>Modelos</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('cardapio')}}" class="nav-link">
+                    <i class="nav-icon fas fa-file"></i>
+                  <p>Cardapio</p>
                 </a>
               </li>
             </ul>

@@ -12,21 +12,13 @@
         toastr.error('{{$erro}}')
       });
     @endforeach
-
-@elseif($sucesso)
-    $('.mensagemsucesso').ready(function() {
-        toastr.success('{{$ucesso}}')
-      });
-
-@eslseif($atencao)
-    $('.mensagemsucesso').ready(function() {
-        toastr.warning('{{$ucesso}}')
-      });
-
-@elseif($informa)
-    $('.mensagemsucesso').ready(function() {
-        toastr.info('{{$ucesso}}')
-      });
 @endif
+    @isset($sucesso)
+    $('.mensagemsucesso').ready(function() {
+        toastr.error('{{($sucesso)}}')
+      });
+
+    @endisset
+
 });
 </script>

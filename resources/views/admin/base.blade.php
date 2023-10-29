@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{asset('storage/icheck-bootstrap/icheck-bootstrap.min.css')}}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{asset('storage/css/adminlte.min.css')}}">
+    <link rel="stylesheet" href="{{asset('storage/css/estilo.css')}}">
     <link rel="shortcut icon" href="{{env('APP_LOGO')}}" type="image/x-icon">
 </head>
 
